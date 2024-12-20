@@ -41,7 +41,7 @@ body {
     background-color: #e3e3e3;
     line-height: 1.5;
     padding: 20px 20px;
-    margin: 10px auto;
+    margin: auto;
     /*background:linear-gradient(135deg,transparent 19px,#e3e3e3 0)top left;*/
     border:2px solid #316464;
     position: relative;
