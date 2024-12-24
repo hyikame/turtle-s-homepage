@@ -1,34 +1,47 @@
 body {
-    background-color: #ffffff;
+    background-color: #cccccc;
     background-size: 100% 70%;
+    background: #ccc;
+    animation: loading 1s;
 }
+
+@keyframes loading {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
 .header {
     width: 100%;
     height: auto;
-    background-color: #1cb7f4a0;
+    background-color: #1A1A1A;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     padding: 20px 0px;
-    color: #242424;
-    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    color: #ffffff;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 
 .footer {
     width: 100%;
     height: auto;
-    background-color: #1cb7f4a0;
+    background-color: #1A1A1A;
     text-align: center;
     font-size: 13px;
     padding: 40px 0px;
-    color: #242424;
+    color: #ffffff;
 }
 
 .footer small {
     font-size: 10px;
-    color: #242424;
+    color: #ffffff;
 }
 
 .main .date {
@@ -36,130 +49,206 @@ body {
 }
 
 .main .content1 {
-    width: 70%;
+    width: 90%;
     height: auto;
-    background-color: #e3e3e3;
+    background-color: #f0f0f0;
     line-height: 1.5;
-    padding: 20px 20px;
+    padding: 35px 33px;
     margin: auto;
     /*background:linear-gradient(135deg,transparent 19px,#e3e3e3 0)top left;*/
-    border:2px solid #316464;
+    border: 2px solid #316464;
     position: relative;
-}
-div.prsya{
-    width: 150px;
-  height:150px;
-  border-radius:50%;
-  background-image: url("image/WTsBT9pt_400x400.jpg");
-  background-position: 48% 40%;
-  margin-left: 25%;
+    font-size: 21.5px;
 }
 
+div.prsya {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("image/WTsBT9pt_400x400.jpg");
+    background-position: 48% 40%;
+    margin-left: 80%;
+    margin-top: -12%;
+}
+
+
 .main .content2 {
-    width: 70%;
+    width: 90%;
     height: auto;
-    background-color: #e3e3e3;
+    background-color: #f0f0f0;
     line-height: 1.5;
-    padding: 20px 20px;
+    padding: 30px 33px;
     margin: 0px auto;
     margin-top: 15px;
     margin-bottom: 15px;
     /*background:linear-gradient(135deg,transparent 19px,#e3e3e3 0)top left;*/
     position: relative;
-    border:2px solid #316464;
+    border: 2px solid #316464;
+    font-size: 21.5px;
 }
 
 .main .content3 {
-    width: 70%;
+    width: 90%;
     height: auto;
-    background-color: #e3e3e3;
+    background-color: #f0f0f0;
     line-height: 1.5;
-    padding: 20px 20px;
+    padding: 30px 33px;
     margin: 0px auto;
     margin-top: 15px;
     margin-top: 15px;
     /*background:linear-gradient(135deg,transparent 19px,#e3e3e3 0)top left;*/
     position: relative;
-    border:2px solid #316464;
+    border: 2px solid #316464;
+    font-size: 21.5px;
 }
 
 .main .content4 {
-    width: 70%;
+    width: 90%;
     height: auto;
-    background-color: #e3e3e3;
+    background-color: #F5F5F5;
     line-height: 1.5;
-    padding: 20px 20px;
+    padding: 30px 33px;
     margin: 0px auto;
     margin-top: 15px;
     margin-bottom: 15px;
     /*background:linear-gradient(135deg,transparent 19px,#e3e3e3 0)top left;*/
     position: relative;
-    border:2px solid #316464;
+    border: 2px solid #316464;
+    font-size: 21.5px;
+}
+
+.main .content5 {
+    width: 90%;
+    height: 70%;
+    background-color: #F5F5F5;
+    line-height: 1.5;
+    padding: 30px 33px;
+    margin: 0px auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /*background:linear-gradient(135deg,transparent 19px,#e3e3e3 0)top left;*/
+    /*position: relative;*/
+    border: 2px solid #316464;
+    font-size: 21px;
+    
+
+}
+.box8 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    background: #fff8e8;
+    border-left: solid 10px #ffc06e;
+}
+.box8 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.text1 {
+    font-size: 24px;
+    color: red;
 }
 
 
+.img-item {
+    width: 630px;
+
+    height: 300px;
+
+    object-fit: cover;
+
+    border: 5px solid #ef1616;
+    margin-left: 13%;
+}
+    .textka{
+        font-size: 20px;
+        color: #00bdf7;
+    }
 
 h1 {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 6px;
     margin-top: 15px;
-    width: 140px;
+    width: 180px;
     height: auto;
-    background-color: #6fb9ac;
+    background-color: #1E3A8A;
     text-align: center;
     /*margin-right: auto;*/
-    margin-left: 13%;
+    margin-left: 5%;
     color: #ffffff;
-    padding:10px;
-    border-radius:10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 
 
 h2 {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 6px;
     margin-top: 15px;
-    width: 140px;
+    width: 180px;
     /*margin-right: auto;*/
-    margin-left: 13%;
+    margin-left: 5%;
     color: #ffffff;
-    background-color: #6fb9ac;
+    background-color: #1E3A8A;
     text-align: center;
-    padding:10px;
-    border-radius:10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 6px;
     margin-top: 15px;
-    width: 140px;
+    width: 180px;
     height: auto;
-    background-color: #6fb9ac;
+    background-color: #1E3A8A;
     text-align: center;
     /*margin-right: auto;*/
-    margin-left: 13%;
+    margin-left: 5%;
     color: #ffffff;
-    padding:10px;
-    border-radius:10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 6px;
     margin-top: 15px;
-    width: 140px;
+    width: 180px;
     height: auto;
-    background-color: #6fb9ac;
+    background-color: #1E3A8A;
     text-align: center;
     /*margin-right: auto;*/
-    margin-left: 13%;
+    margin-left: 5%;
     color: #ffffff;
-    padding:10px;
-    border-radius:10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 
+h5 {
+    font-size: 28px;
+    margin-bottom: 6px;
+    margin-top: 15px;
+    width: 180px;
+    height: auto;
+    background-color: #1E3A8A;
+    text-align: center;
+    /*margin-right: auto;*/
+    margin-left: 5%;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
 
+.rogoyose {
+    text-align: center;
+}
 
 .twitter-logo {
 
@@ -205,10 +294,12 @@ h4 {
     cursor: pointer;
 }
 
+li {
+    font-weight: bold;
+}
+
 @media(min-width:1200px) {
-    .twitter-logo {
-        margin-left: 120px;
-    }
+
 
     .insta-logo {
         margin-left: 20px;
@@ -221,9 +312,70 @@ h4 {
     .blue-logo {
         margin-left: 20px;
     }
-    div.prsya{
-        margin-left: 80%;
-        margin-top: -15%;
+
+    div.prsya {
+        margin-left: 75%;
+        margin-top: -12%;
+    }
+
+    .main .content1 {
+        width: 70%;
+        height: 200px;
+        font-size: 16.5px;
+    }
+
+    .main .content2 {
+        width: 70%;
+        font-size: 16.5px;
+    }
+
+    .main .content3 {
+        width: 70%;
+        font-size: 16.5px;
+    }
+
+    .main .content5 {
+        width: 70%;
+        font-size: 16.5px;
+    }
+
+    .main .content4 {
+        width: 70%;
+        font-size: 16.5px;
+    }
+
+    h1 {
+        margin-left: 13%;
+        font-size: 20px;
+        width: 140px;
+    }
+
+    h2 {
+        margin-left: 13%;
+        font-size: 20px;
+        width: 140px;
+    }
+
+    h3 {
+        margin-left: 13%;
+        font-size: 20px;
+        width: 140px;
+    }
+
+    h4 {
+        margin-left: 13%;
+        font-size: 20px;
+        width: 140px;
+    }
+
+    h5 {
+        margin-left: 13%;
+        font-size: 20px;
+        width: 140px;
+    }
+
+    .text1 {
+        font-size: 18px;
     }
 
 
@@ -244,103 +396,107 @@ h4 {
     color: #fff;
     margin-bottom: 30px;
 }
-.main .content1::before{
-    height:0;
+
+.main .content1::before {
+    height: 0;
     display: block;
     position: absolute;
-    content:"";
-    border-top:solid 40px #FFF;
-    border-left:solid 40px transparent;
-    left:-3px;
-    top:-3px;
-    z-index:2;
-    transform:rotate(-90deg);
+    content: "";
+    border-top: solid 40px #cccccc;
+    border-left: solid 40px transparent;
+    left: -3px;
+    top: -3px;
+    z-index: 2;
+    transform: rotate(-90deg);
 }
 
-.main .content1::after{
-    height:0;
+.main .content1::after {
+    height: 0;
     display: block;
     position: absolute;
-    content:"";
-    border-top:solid 40px #316464;
-    border-left:solid 40px transparent;
-    left:-1.5px;
-    top:-1.5px;
-    
-    transform:rotate(-90deg);
-}
-.main .content2::before{
-    height:0;
-    display: block;
-    position: absolute;
-    content:"";
-    border-top:solid 40px #FFF;
-    border-left:solid 40px transparent;
-    left:-3px;
-    top:-3px;
-    z-index:2;
-    transform:rotate(-90deg);
+    content: "";
+    border-top: solid 40px #316464;
+    border-left: solid 40px transparent;
+    left: -1.5px;
+    top: -1.5px;
+
+    transform: rotate(-90deg);
 }
 
-.main .content2::after{
-    height:0;
+.main .content2::before {
+    height: 0;
     display: block;
     position: absolute;
-    content:"";
-    border-top:solid 40px #316464;
-    border-left:solid 40px transparent;
-    left:-1.5px;
-    top:-1.5px;
-    
-    transform:rotate(-90deg);
-}
-.main .content3::before{
-    height:0;
-    display: block;
-    position: absolute;
-    content:"";
-    border-top:solid 40px #FFF;
-    border-left:solid 40px transparent;
-    left:-3px;
-    top:-3px;
-    z-index:2;
-    transform:rotate(-90deg);
+    content: "";
+    border-top: solid 40px #cccccc;
+    border-left: solid 40px transparent;
+    left: -3px;
+    top: -3px;
+    z-index: 2;
+    transform: rotate(-90deg);
 }
 
-.main .content3::after{
-    height:0;
+.main .content2::after {
+    height: 0;
     display: block;
     position: absolute;
-    content:"";
-    border-top:solid 40px #316464;
-    border-left:solid 40px transparent;
-    left:-1.5px;
-    top:-1.5px;
-    
-    transform:rotate(-90deg);
-}
-.main .content4::before{
-    height:0;
-    display: block;
-    position: absolute;
-    content:"";
-    border-top:solid 40px #FFF;
-    border-left:solid 40px transparent;
-    left:-3px;
-    top:-3px;
-    z-index:2;
-    transform:rotate(-90deg);
+    content: "";
+    border-top: solid 40px #316464;
+    border-left: solid 40px transparent;
+    left: -1.5px;
+    top: -1.5px;
+
+    transform: rotate(-90deg);
 }
 
-.main .content4::after{
-    height:0;
+.main .content3::before {
+    height: 0;
     display: block;
     position: absolute;
-    content:"";
-    border-top:solid 40px #316464;
-    border-left:solid 40px transparent;
-    left:-1.5px;
-    top:-1.5px;
-    
-    transform:rotate(-90deg);
+    content: "";
+    border-top: solid 40px #cccccc;
+    border-left: solid 40px transparent;
+    left: -3px;
+    top: -3px;
+    z-index: 2;
+    transform: rotate(-90deg);
+}
+
+.main .content3::after {
+    height: 0;
+    display: block;
+    position: absolute;
+    content: "";
+    border-top: solid 40px #316464;
+    border-left: solid 40px transparent;
+    left: -1.5px;
+    top: -1.5px;
+
+    transform: rotate(-90deg);
+}
+
+.main .content4::before {
+    height: 0;
+    display: block;
+    position: absolute;
+    content: "";
+    border-top: solid 40px #cccccc;
+    border-left: solid 40px transparent;
+    left: -3px;
+    top: -3px;
+    z-index: 2;
+    transform: rotate(-90deg);
+}
+
+.main .content4::after {
+    height: 0;
+    display: block;
+    position: absolute;
+    content: "";
+    border-top: solid 40px #316464;
+    border-left: solid 40px transparent;
+    left: -1.5px;
+    top: -1.5px;
+
+    transform: rotate(-90deg);
 }
